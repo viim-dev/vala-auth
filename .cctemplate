@@ -1,0 +1,16 @@
+{
+  "name": "cloud-run-vala-auth-nodejs",
+  "metadata": {
+    "version": "0.1.0"
+  },
+  "templates": [
+    {
+      "path": "./",
+      "name": "Vala Auth Template - Node.js",
+      "description": "Basic microservice template for Cloud Run with Vala Auth",
+      "languages": [
+        "Node.js"
+      ]
+    }
+  ]
+}
