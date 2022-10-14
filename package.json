@@ -7,7 +7,7 @@
   "browser": "./dist/valaauth.min.js",
   "scripts": {
     "build": "npm run build:web && npm run build:node",
-    "build:web": "webpack --config webpack.config.js",
+    "build:web": "npx webpack --config webpack.config.js",
     "build:node": "tsc",
     "prepare": "npm run build",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
